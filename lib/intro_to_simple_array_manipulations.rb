@@ -31,5 +31,8 @@ def using_flatten(array)
   array.flatten 
 end
 def using_delete(array, string)
-  
-authenticate_or_request_with_http_diges  
+  array.delete=""
+end
+def using_delete_at(array, integer)
+  array.delete=
+end

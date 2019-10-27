@@ -31,8 +31,8 @@ def using_flatten(array)
   array.flatten 
 end
 def using_delete(array, string)
-  delete "steven"
+ array.delete= ("steven")
 end
 def using_delete_at(array, integer)
-  delete "Robocop"
+  array.delete= (2)
 end

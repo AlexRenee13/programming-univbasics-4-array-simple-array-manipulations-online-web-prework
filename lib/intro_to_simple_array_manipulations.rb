@@ -22,17 +22,17 @@ def using_concat(array1, array2)
   array.concat= array1+array2
 end
 def using_insert(array)
-  array.insert[4]
+  array.insert
 end
 def using_uniq(array)
   array.uniq
 end
-def using_flatten(array)
+def using_flatten(array) 
   array.flatten 
 end
 def using_delete(array, string)
- array.delete= ["Steven"]
+ array.delete= []
 end
 def using_delete_at(array, integer)
-  array.delete= [2]
+  array.delete= []
 end

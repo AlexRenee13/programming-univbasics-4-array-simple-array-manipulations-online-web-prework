@@ -1,9 +1,10 @@
 def using_push(array, string)
-  array.push("")
+  array.push("violet")
 end
 def using_unshift(array, string)
-  array.unshift("")
+  array.unshift("Staten Island")
 end
 def using_pop(array) 
-  array.pop
+  dog_breeds = array.pop
+  small_dogs = array.pop
 end

@@ -5,8 +5,9 @@ def using_unshift(array, string)
   array.unshift("Staten Island")
 end
 def using_pop(array) 
-  array.pop
+  small_dogs = array.pop
+  dog_breeds= array.pop
 end
 def using_shift 
-  im_so_over_this_city=array.shift(my_favorite_cities)
+  im_so_over_this_city = array.shift
 end

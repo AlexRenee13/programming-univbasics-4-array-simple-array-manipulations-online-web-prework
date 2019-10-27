@@ -22,7 +22,7 @@ def using_concat()
   array.concat
 end
 def using_insert(array)
-  array.insert[element]
+  array.insert[newElement]
 end
 def using_uniq(array)
   array.uniq

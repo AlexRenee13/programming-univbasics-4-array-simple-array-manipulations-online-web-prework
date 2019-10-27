@@ -8,12 +8,11 @@ def using_pop(array)
   dog_breed = array.pop
 end
 
-def pop_with_args
-  array.pop
-  array.pop
+def pop_with_args(array)
+  array.pop(2)
 end  
 
-def using_shift 
+def using_shift(array)
     array.shift()
 end
 def shift_with_args

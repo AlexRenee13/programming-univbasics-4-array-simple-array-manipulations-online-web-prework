@@ -9,10 +9,13 @@ def using_pop(array)
 end
 
 def pop_with_args
-  small_breed = array.pop
-  dog_breed= array.pop
+  array.pop
+  array.pop
 end  
 
 def using_shift 
-  im_so_over_this_city = array.shift
+    array.shift()
 end
+def shift_with_args
+  array.shift()
+end 

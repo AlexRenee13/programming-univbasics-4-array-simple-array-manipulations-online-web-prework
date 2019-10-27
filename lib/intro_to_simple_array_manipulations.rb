@@ -21,12 +21,15 @@ end
 def using_concat()
   array.concat
 end
-def using_insert(array, element)
-  array.insert[]
+def using_insert(array, newElement)
+  array.insert[4]
 end
-def using_uniq
+def using_uniq(array)
+  array.uniq
+end
+def using_flatten(array)
+  array.flatten 
+end
+def using_delete(array, string)
   
-end
-def using_flatten
-  
-end
+authenticate_or_request_with_http_diges  

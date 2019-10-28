@@ -23,7 +23,7 @@ def using_concat(array)
   my_favorite_thing + more_favs
 end
 def using_insert(element)
-  element.insert()
+  element.insert(another_language)
 end
 def using_uniq(array)
   array.uniq

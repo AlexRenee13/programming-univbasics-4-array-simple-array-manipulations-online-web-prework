@@ -18,8 +18,8 @@ end
 def shift_with_args(array)
   array.shift(2)
 end 
-def using_concat(my_favorite_thing, array2)
-  array.concat= array1+array2
+def using_concat(array)
+  array.concat= all_my_fav+my_favorite_thing
 end
 def using_insert(newelement)
   newelement.insert

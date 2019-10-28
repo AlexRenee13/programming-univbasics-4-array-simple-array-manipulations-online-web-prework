@@ -22,7 +22,7 @@ def using_concat(array)
   array.concat= all_my_fav+my_favorite_thing
 end
 def using_insert(element)
-  element.insert
+  element.insert()
 end
 def using_uniq(array)
   array.uniq

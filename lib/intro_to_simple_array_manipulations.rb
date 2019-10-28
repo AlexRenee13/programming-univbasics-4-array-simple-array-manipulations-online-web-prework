@@ -19,8 +19,7 @@ def shift_with_args(array)
   array.shift(2)
 end 
 def using_concat(array)
-  array.concat
-  my_favorite_thing + more_favs
+   array.concat = (my_favorite_thing + more_favs)
 end
 def using_insert(element)
   element.insert(another_language)
